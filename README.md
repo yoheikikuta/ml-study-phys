@@ -22,20 +22,21 @@ Repository for studying [this book](https://www.amazon.co.jp/%E8%A9%B3%E8%A7%A3-
   sudo apt-get update
   sudo apt-get install docker-ce
   ```
-  Check the docker environment.
+  Check the docker environment:
   ```
   sudo docker run hello-world
   ```
 
-- Build a docker environment and start analysis
+- Build a docker environment and start analysis <br>
   In the instance:
   ```
   git clone https://github.com/yoheikikuta/ml-study-phys.git
   cd ml-study-phys
   sudo docker build -t [image tag] -f ./Dockerfile .
-  sudo docker run -it -p [host port]:8888 -v $PWD:/work --name [container name] [image tag]
+  sudo docker run -it -p [instance port]:8888 -v $PWD:/work --name [container name] [image tag]
   ```
   Launch jupyter in the contaienr:
   ```
   bash launch-notebook.sh
   ```
+  Access to `localhost:[host port]` on your local browser.

@@ -4,7 +4,7 @@ Repository for studying [this book](https://www.amazon.co.jp/%E8%A9%B3%E8%A7%A3-
 
 ## Environment
 - Local: Mac where Google Cloud SDK is installed
-- Server: Cloud Platform, Compute Engine
+- Server: Google Cloud Platform, Compute Engine
 
 ## Set up
 - SSH login to an instance
